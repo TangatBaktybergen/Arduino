@@ -1,7 +1,8 @@
 # Arduino
 Arduino proejects
 
-| First header | Second header |
-| ------------ |  ------------ | 
-| ------------ | ------------ |
+| Description | Detail |
+| Microcontroller | ATmega328 | 
+| Voltage(operating) | 5V |
+| Input votlage | 7V to 12 V |
 | ------------ | ------------ |
