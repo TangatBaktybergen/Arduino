@@ -21,3 +21,7 @@ Die Beschreibung von ATmega328 Mikrocontroller , die das Hertz von Arduino UNO i
 Ein Bootloader ist ein kleines Programm, das in einem bestimmten Bereich des Flash-Speichers auf dem Mikrocontrollerboard seinen Platz findet und für das Laden des eigentlichen Programms verantwortlich ist. Normalerweise wird ein Mikrocontroller über zusätzliche Hardware, zum Beispiel einen ISP-Programmer, mit dem Arbeitsprogramm versehen. Durch den Bootloader enfällt diese Notwendigkeit. Nach dem erfolgreichen Übertragen des Arbeitsprogramms in den Arbeitsspeicher des Controllers wird es unmittelbar zur Ausführung gebracht.
 
 * Die Spannungsversorgung 
+Wenn wir mit dem Arduino arbeiten oder ihn programmieren, dann ist natürlich eine USB-Verbindung zum Rechner notwending.Diese Verbindung hat zwei Aufgaben:
+*  die erforderliche Spannungsversorgung von 5V herstellen
+*  einen Kommunikationskanal zwischen Rechner und Arduino-Boardbereitstellen
+
