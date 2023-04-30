@@ -1,9 +1,9 @@
 # Arduino
 Arduino proejects
 
-| Description        | Detail       |
+| Bezeichnung        | Detail       |
 | ------------------ | ------------ |
-| Microcontroller    | ATmega328    | 
-| Operating V.       | 5V           |
-| Input V.           | 7V to 12 V   |
-| Input V. limit     | 6V to 20V    |
+| Mikrocontroller    | ATmega328    | 
+| Arbeitsspannung    | 5V           |
+| Eingangsspannung   | 7V to 12 V   |
+| Eingangsspannung(Limit) | 6V to 20V    |
