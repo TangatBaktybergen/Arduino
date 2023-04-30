@@ -27,3 +27,21 @@ Wenn wir mit dem Arduino arbeiten oder ihn programmieren, dann ist natürlich ei
   1. die erforderliche Spannungsversorgung von 5V herstellen
   2. einen Kommunikationskanal zwischen Rechner und Arduino-Boardbereitstellen
 
+Die Power-Anschluss wird benötigt, um das Arduino-Board nach der Programmierung unabhängig vom Rechner zu machen, über den es zuvor programmiert wurde. 
+Die vorgeschlagene Spannung sollte sich im Bereich von 7V bis 12V DC bewegen
+
+* Die Ein- und Ausgänge
+
+Es ist eine Durchnummerierung von 0 bis 13 zu erkennen, wobei machen Nummern eine Schlangenlinie - auch Tilde genannt - voransteht. Eben so gibt es Zwei Pins, an denen sich die Zusatzinformation RX und TX befinden. Sie sollten im Normalfall nicht zur Ansteurung verwendet werden, da sie von der seriellen Schnittstelle standardmäßig belegt sind. 
+
+* PWM-Signal
+
+Eine PWM-Signal besitzt eine konstante Frequenz mit einer konstanten Spannung. Was jedoch variieren kann, ist der sogenannte Tastgrad. Wenn die Frequenz f gleich bleibt, dass ebenfallsdie Periodendauer T konstant ist. Die Impulsedauer kann sich ändern, Je breiter der Impulsquasi größere Fläche -, desto größer ist auch die Energie.
+
+* Der Flash-Speicher
+
+Der Flash-Speicher speichert der Sketch ( die Aufgaben ) für den Mikrocontroller. Wird der Arduino von der Spannungsversorgung getrennt und ist somit stromlos, dann bleibt der Sketch resistent im Speicher.
+
+* Das SRAM 
+
+Die Abkürzung von SRAM lautet Static Random Access Memory. Wird ein Sketch zum Beispiel zur Verarbeitung von Messwerten benötigt, dann müssen diese Werte in irgendeiner Form innerhalb des Mikrocontrollers abgelegt werden.Dazu benutzt man sogenannte Variablen, die als Platzhalter fungieren. Es handelt sich um spezielle Speicherbereiche sind jedoch flüchtig,
