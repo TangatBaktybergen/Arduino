@@ -24,6 +24,6 @@ Ein Bootloader ist ein kleines Programm, das in einem bestimmten Bereich des Fla
 * Die Spannungsversorgung 
 
 Wenn wir mit dem Arduino arbeiten oder ihn programmieren, dann ist natürlich eine USB-Verbindung zum Rechner notwending.Diese Verbindung hat zwei Aufgaben:
-  *  die erforderliche Spannungsversorgung von 5V herstellen
-  *  einen Kommunikationskanal zwischen Rechner und Arduino-Boardbereitstellen
+  1. die erforderliche Spannungsversorgung von 5V herstellen
+  2. einen Kommunikationskanal zwischen Rechner und Arduino-Boardbereitstellen
 
