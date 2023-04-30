@@ -44,4 +44,8 @@ Der Flash-Speicher speichert der Sketch ( die Aufgaben ) für den Mikrocontrolle
 
 * Das SRAM 
 
-Die Abkürzung von SRAM lautet Static Random Access Memory. Wird ein Sketch zum Beispiel zur Verarbeitung von Messwerten benötigt, dann müssen diese Werte in irgendeiner Form innerhalb des Mikrocontrollers abgelegt werden.Dazu benutzt man sogenannte Variablen, die als Platzhalter fungieren. Es handelt sich um spezielle Speicherbereiche sind jedoch flüchtig,
+Die Abkürzung von SRAM lautet Static Random Access Memory. Wird ein Sketch zum Beispiel zur Verarbeitung von Messwerten benötigt, dann müssen diese Werte in irgendeiner Form innerhalb des Mikrocontrollers abgelegt werden.Dazu benutzt man sogenannte Variablen, die als Platzhalter fungieren. Es handelt sich um spezielle Speicherbereiche sind jedoch flüchtig, was bedeutet, dass sie ihre Informationen nach dem Abschalten der Spannungsversorgung verlieren. 
+
+* Das EEPROM 
+
+Die Abkürzung EEPROM steht für Electrically Erasable Programmable Read-Only Memory.Es handelt sich wie beim Flash-Speicher. Es ist benutzt um wichtige Daten wie zum b. Messwerte permanent zu speichern. Die Schreibzugriffe auf diesen Speicherbereich ist begrenzt. Die maximalen Screib- und Löschrogänge sind offiziell mit einem Wert von 100 000 angegeben. 
