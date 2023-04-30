@@ -1,5 +1,5 @@
 # Arduino
-Arduino proejects
+Die Beschreibung von ATmega328 Mikrocontroller , die das Hertz von Arduino UNO ist. 
 
 | Bezeichnung             | Detail       |
 | ------------------      | ------------ |
@@ -15,3 +15,6 @@ Arduino proejects
 | SRAM                    | 2KByte       |
 | EEPROM                  | 1KByte       |
 | Taktrate                | 16MHz        |
+
+
+* Was genau ist ein Bootloader? 
